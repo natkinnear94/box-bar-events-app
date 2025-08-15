@@ -1,0 +1,278 @@
+{
+  "corporateDrinkLibrary": [
+    {
+      "id": "sparkling_prosecco",
+      "name": "Prosecco",
+      "description": "Light, crisp Italian sparkling wine for networking events.",
+      "type": "sparkling",
+      "tags": ["networking", "reception", "popular"]
+    },
+    {
+      "id": "sparkling_premium",
+      "name": "Premium Sparkling Wine",
+      "description": "High-quality sparkling wine for executive events.",
+      "type": "sparkling",
+      "tags": ["networking", "executive", "upgrade"]
+    },
+    {
+      "id": "cocktail_aperol",
+      "name": "Aperol Spritz",
+      "description": "Light, professional networking cocktail.",
+      "type": "cocktail",
+      "tags": ["networking", "summer", "popular"]
+    },
+    {
+      "id": "cocktail_gin_tonic",
+      "name": "Gin & Tonic",
+      "description": "Classic professional cocktail.",
+      "type": "cocktail",
+      "tags": ["networking", "classic", "popular"]
+    },
+    {
+      "id": "cocktail_elderflower",
+      "name": "Elderflower Spritz",
+      "description": "Sophisticated, light cocktail for daytime events.",
+      "type": "cocktail",
+      "tags": ["networking", "daytime", "sophisticated"]
+    },
+    {
+      "id": "beer_premium_lager",
+      "name": "Premium Lager",
+      "description": "High-quality lager selection for corporate events.",
+      "type": "beer",
+      "tags": ["networking", "reception", "popular"]
+    },
+    {
+      "id": "beer_craft",
+      "name": "Local Craft Beer",
+      "description": "Support local business with craft beer selection.",
+      "type": "beer",
+      "tags": ["networking", "local", "craft"]
+    },
+    {
+      "id": "wine_house_red",
+      "name": "House Red Wine",
+      "description": "Professional-grade red wine selection.",
+      "type": "wine",
+      "tags": ["essential", "networking"]
+    },
+    {
+      "id": "wine_house_white",
+      "name": "House White Wine",
+      "description": "Crisp white wine for business events.",
+      "type": "wine",
+      "tags": ["essential", "networking"]
+    },
+    {
+      "id": "wine_premium_red",
+      "name": "Premium Red Wine",
+      "description": "Executive-level red wine selection.",
+      "type": "wine",
+      "tags": ["professional", "executive", "premium"]
+    },
+    {
+      "id": "wine_premium_white",
+      "name": "Premium White Wine",
+      "description": "High-end white wine for executive events.",
+      "type": "wine",
+      "tags": ["professional", "executive", "premium"]
+    },
+    {
+      "id": "coffee_espresso",
+      "name": "Espresso Coffee",
+      "description": "Professional-grade espresso service.",
+      "type": "coffee",
+      "tags": ["morning", "networking", "essential"]
+    },
+    {
+      "id": "coffee_americano",
+      "name": "Americano",
+      "description": "Classic black coffee for business events.",
+      "type": "coffee",
+      "tags": ["morning", "networking", "popular"]
+    },
+    {
+      "id": "coffee_latte",
+      "name": "Latte",
+      "description": "Milk-based coffee for morning events.",
+      "type": "coffee",
+      "tags": ["morning", "networking", "popular"]
+    },
+    {
+      "id": "tea_selection",
+      "name": "Premium Tea Selection",
+      "description": "Earl Grey, English Breakfast, Green Tea options.",
+      "type": "tea",
+      "tags": ["morning", "afternoon", "networking"]
+    },
+    {
+      "id": "mocktail_elderflower_fizz",
+      "name": "Elderflower Fizz",
+      "description": "Professional non-alcoholic option.",
+      "type": "mocktail",
+      "tags": ["networking", "non-alcoholic", "sophisticated"]
+    },
+    {
+      "id": "mocktail_virgin_mojito",
+      "name": "Virgin Mojito",
+      "description": "Refreshing alcohol-free option for daytime events.",
+      "type": "mocktail",
+      "tags": ["networking", "non-alcoholic", "refreshing"]
+    },
+    {
+      "id": "soft_sparkling_water",
+      "name": "Premium Sparkling Water",
+      "description": "High-quality sparkling water with garnish options.",
+      "type": "soft",
+      "tags": ["networking", "non-alcoholic", "essential"]
+    },
+    {
+      "id": "soft_still_water",
+      "name": "Premium Still Water",
+      "description": "Quality still water service.",
+      "type": "soft",
+      "tags": ["networking", "non-alcoholic", "essential"]
+    },
+    {
+      "id": "soft_fresh_juices",
+      "name": "Fresh Pressed Juices",
+      "description": "Orange, apple, and cranberry juice options.",
+      "type": "soft",
+      "tags": ["networking", "non-alcoholic", "morning"]
+    }
+  ],
+  "corporatePackages": [
+    {
+      "id": "essential",
+      "name": "Essential Business Bar",
+      "minimumSpend": 1800,
+      "description": "Professional bar service covering the essentials for corporate events.",
+      "includes": [
+        "Mobile trailer bar hire",
+        "Professional glassware",
+        "3 experienced bartenders",
+        "Setup and breakdown service"
+      ],
+      "networkingDrinks": [
+        "beer_premium_lager",
+        "wine_house_red",
+        "wine_house_white",
+        "sparkling_prosecco"
+      ],
+      "nonAlcoholic": [
+        "coffee_americano",
+        "tea_selection",
+        "soft_sparkling_water",
+        "soft_still_water"
+      ],
+      "serviceHours": "4 hours standard service",
+      "notes": "Example: Covers 80-100 professionals with essential drink options and coffee service."
+    },
+    {
+      "id": "professional",
+      "name": "Professional Networking Package",
+      "minimumSpend": 2400,
+      "description": "Enhanced service for professional networking and team events.",
+      "includes": [
+        "Mobile trailer bar hire",
+        "Premium glassware and service",
+        "4 experienced bartenders",
+        "Extended coffee and tea service",
+        "Setup and breakdown service"
+      ],
+      "networkingDrinks": [
+        "beer_premium_lager",
+        "beer_craft",
+        "wine_premium_red",
+        "wine_premium_white",
+        "sparkling_prosecco",
+        "cocktail_aperol",
+        "cocktail_gin_tonic"
+      ],
+      "nonAlcoholic": [
+        "coffee_espresso",
+        "coffee_americano",
+        "coffee_latte",
+        "tea_selection",
+        "mocktail_elderflower_fizz",
+        "soft_fresh_juices"
+      ],
+      "serviceHours": "5 hours enhanced service",
+      "notes": "Example: Covers 100-120 professionals with premium drink selection and extended service."
+    },
+    {
+      "id": "executive",
+      "name": "Executive Event Experience",
+      "minimumSpend": 3200,
+      "description": "Premium bar service for high-level corporate events and client entertainment.",
+      "includes": [
+        "Mobile trailer bar hire",
+        "Executive-level glassware and presentation",
+        "4 professional bartenders",
+        "Full coffee bar service",
+        "Branded service options",
+        "Setup and breakdown service"
+      ],
+      "networkingDrinks": [
+        "unlimited_4hours",
+        "wine_premium_red",
+        "wine_premium_white",
+        "sparkling_premium",
+        "cocktail_elderflower",
+        "cocktail_gin_tonic",
+        "beer_craft"
+      ],
+      "nonAlcoholic": [
+        "full_coffee_service",
+        "premium_tea_service",
+        "mocktail_elderflower_fizz",
+        "mocktail_virgin_mojito",
+        "soft_fresh_juices"
+      ],
+      "serviceHours": "6 hours executive service",
+      "notes": "Example: Covers 120-150 professionals with premium hosted bar and full beverage service."
+    }
+  ],
+  "corporateAddOns": [
+    {
+      "name": "Extended service hours",
+      "price": 120,
+      "unit": "per hour"
+    },
+    {
+      "name": "Branded glassware with company logo",
+      "price": 200,
+      "unit": "setup fee"
+    },
+    {
+      "name": "Additional professional bartender",
+      "price": 100,
+      "unit": "each"
+    },
+    {
+      "name": "Premium coffee bar service",
+      "price": 180,
+      "unit": "per session"
+    },
+    {
+      "name": "Corporate breakfast bar",
+      "price": 8,
+      "unit": "per person"
+    },
+    {
+      "name": "Custom corporate cocktails",
+      "price": 120,
+      "unit": "setup fee + drinks cost"
+    },
+    {
+      "name": "Professional networking mixer package",
+      "price": 150,
+      "unit": "enhanced service"
+    },
+    {
+      "name": "Executive presentation setup",
+      "price": 100,
+      "unit": "setup fee"
+    }
+  ]
+}
